@@ -1,0 +1,33 @@
+1. 내 폴더 중 작업공간 설정
+	git init 
+	
+2. 초기 설정 
+	git config --global user.email "깃허브이메일주소"
+	git config --global user.name "깃허브닉네임"
+
+3. 브랜치 이름 바꾸기
+	git branch (브랜치 목록확인)
+	git branch -m master main (master 브랜치를 main으로 수정)
+
+4. 개인 원격 저장소 연결하기
+	git remote add origin 원격저장소주소
+	git remote -v (원격 저장소 확인하기)	
+
+5. 공용 저장소 연결하기
+	git remote add 공용저장소이름 공용저장소주소
+	git remote -v (공용 저장소 확인하기)
+
+6. 스테이징
+	git add . (현재 경로에 있는 모든파일 올리기)
+	git status (파일 상태 확인)
+
+7. 커밋
+	git commit -m "커밋메세지"
+
+8-1. 원격 저장소에 push 하기
+	git push origin main
+	git push -f origin main (fetch를 진행)
+
+8-2. 원격 저장소에서 pull 받기
+	git pull origin main
+
