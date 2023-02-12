@@ -31,3 +31,12 @@
 8-2. 원격 저장소에서 pull 받기
 	git pull origin main
 
+
+======================================================
+# GitHub 키체인 설정
+
+깃허브 로그인 > 우측 상단 프로필 사진 클릭 > settings > 좌측 최하단 Developer settings >  좌측에 Personal access tokens > Tokens(classic) > 우측 상단에 Generate new token > classic으로 생성하기
+
+토큰 생성시 딱 한번만 보여주고 이 후에는 보여주지 않음.
+생성과 동시에 다른곳에 저장해두고 사용해야함
+
